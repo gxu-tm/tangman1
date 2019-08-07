@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.box1{
+				width: 200px;
+				height: 200px;
+				background: -webkit-linear-gradient(red, blue); /* Safari 5.1 - 6.0 */
+				background: -o-linear-gradient(red, blue); /* Opera 11.1 - 12.0 */
+				background: -moz-linear-gradient(red, blue); /* Firefox 3.6 - 15 */
+				background: -ms-linear-gradient(red, blue); /* Firefox 3.6 - 15 */
+				background: linear-gradient(to top,red,blue 50%,green);
+				background: linear-gradient(30deg,red,blue 50%,green);
+			}
+			.box2{
+				width: 200px;
+				height: 200px;
+				background: -webkit-radial-gradient(50% 50%,ellipse farthest-side,blue,green,yellow,black); /* Safari 5.1 - 6.0 */
+				background: radial-gradient(50% 50%,circle closest-corner, red,green);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box1">1.线性渐变</div>
+		<div class="box2">2.径向渐变</div>
+	</body>
+</html>
